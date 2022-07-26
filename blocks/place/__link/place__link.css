@@ -5,7 +5,12 @@
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 122%;
     color: #fff;
     transition: 0.3s ease-in;
   }
+  
+  .place__link:hover {
+    opacity: 0.8;
+  }
+  

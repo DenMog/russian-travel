@@ -6,8 +6,10 @@
     font-style: normal;
     font-size: 72px;
     line-height: 76px;
+    display: flex;
+    flex-direction: column;
   }
-
+  
   @media screen and (max-width: 768px) {
     .place__title {
       font-size: 42px;
@@ -23,7 +25,7 @@
   
   @media screen and (max-width: 480px) {
     .place__title {
-      margin: 0 auto 33px;
+      margin: 0 auto 32px;
       width: calc(100% - 2*16px);
       font-size: 32px;
       line-height: 35px;

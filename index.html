@@ -3,14 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Russian travel</title>
+  <title>Путешествия по России</title>
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body>
     <div class="page">
         <header class="header">
             <img src="./mages/header-logo.svg"
-                 alt="Логотип с изображением карты России">
+                 alt="Логотип с изображением карты России"
+                 class="header__logo">
             <ul class="header__lang-links">
                 <li class="header__list-item"><a class="header__lang-link header__lang-link_active" href="#">Ru</a></li>
                 <li class="header__list-item"><a class="header__lang-link" href="#">En</a></li>
@@ -24,18 +25,18 @@
                     <img class="lead__image"
                     src="./mages/lead-polka.jpg"
                     alt="Фото полки в вагоне">
-                    <figcaption class="lead__caption">ВАША ПОЛКА ВЕРХНЯЯ</figcaption>
+                    <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
                 </figure>          
             </section>
             <section class="intro">
-                <h2 class="intro__title">Чего мы там не видели?</h2>
+                <h2 class="intro__title">Чего мы там не&nbsp;видели?</h2>
                 <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
                 <ul class="intro__list">
-                  <li>Часовых поясов 11</li>
-                  <li>Объектов природного наследия ЮНЕСКО 12</li>
-                  <li>Объектов культурного наследия ЮНЕСКО 16</li>
-                  <li> Природных заповедников 105</li>
-                  <li>Аэропортов 241</li>
+                  <li>Часовых поясов <span class="intro__list_numbers">11</span></li>
+                  <li>Объектов природного наследия ЮНЕСКО <span class="intro__list_numbers">12</span></li>
+                  <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list_numbers">16</span></li>
+                  <li> Природных заповедников <span class="intro__list_numbers">105</span></li>
+                  <li>Аэропортов <span class="intro__list_numbers">241</span></li>
                 </ul>
               </section>
               <section class="photo-grid">
@@ -58,7 +59,7 @@
                 <article class="place">
                   <h2 class="place__title">Куршская коса</h2>
                   <div class="place__website">
-                    <p>URL</p>
+                    <p class="place__url-heading">url</p>
                     <a class="place__link" href="http://park-kosa.ru">park-kosa.ru</a>
                   </div>
                   <img class="place__image" src="./mages/place-kosa.jpg" alt="Фото Балтийского моря">
@@ -75,7 +76,7 @@
                <article class="place">
                   <h2 class="place__title">Кольский</h2>
                   <div class="place__website">
-                    <p>URL</p>
+                    <p class="place__url-heading">url</p>
                     <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
                   </div>
                   <img class="place__image" src="./mages/place-kolsky.jpg" alt="Фото Кольского полуострова">
@@ -91,7 +92,7 @@
                 <article class="place">
                   <h2 class="place__title">Алтай</h2>
                   <div class="place__website">
-                    <p class="place__url-heading">URL</p>
+                    <p class="place__url-heading">url</p>
                     <a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
                   </div>
                   <img class="place__image" src="./mages/place-altai.jpg" alt="Фото ноутбука на фоне леса">
@@ -107,7 +108,7 @@
                 <article class="place">
                   <h2 class="place__title">Зимний Байкал</h2>
                   <div class="place__website">
-                    <p class="place__url-heading">URL</p>
+                    <p class="place__url-heading">url</p>
                     <a class="place__link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
                   </div>
                   <img class="place__image" src="./mages/place-winter-baikal.jpg" alt="Фото льда">
